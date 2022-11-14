@@ -54,7 +54,7 @@ class App extends Component {
         }
     }
 
-    //! винести Api в окремий компонент?
+    //! винести Api в окремий компонент? так
     Api = async () => {
         try {
             const response = await axios.get('', {
